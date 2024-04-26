@@ -1,0 +1,71 @@
+
+
+
+.card {
+    /*background-color: #fff; /* Card background color */
+    border-radius: 8px; /* Rounded corners for the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow around the card */
+    padding: 20px; /* Space inside the card */
+    margin: 20px auto; /* Center the card with some margin */
+    max-width: 500px; /* Maximum width of the card */
+  }
+
+
+/* Add this new CSS class for your actions container */
+.actions {
+  display: flex; /* This will layout children in a row */
+  justify-content: space-between; /* This will put space between your two components */
+  align-items: center; /* This will vertically align them in the center */
+  margin-top: 20px; /* Add some space above the actions row */
+}
+
+/* If you need to ensure buttons and toggles don't grow too much or need specific sizing, you can also add: */
+.PublicPrivateToggle, .CreateListButton {
+  flex: 1; /* This makes both items to grow equally */
+  min-width: 0; /* This ensures they can shrink below their content's intrinsic size if needed */
+  margin-right: 10px; /* If you want some space between the toggle and the button */
+}
+
+
+
+  /*
+
+
+  Are declared in global.css:
+
+  
+  button {
+  background-color: #007bff; 
+  color: white; 
+  padding: 10px 20px; 
+  border: none; /* No borders for a flat appearance 
+  border-radius: 4px; /* Slightly rounded corners 
+  cursor: pointer; /* Pointer cursor on hover 
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect 
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker shade on hover 
+}
+
+button:disabled {
+  background-color: #cccccc; /* Disabled state 
+  cursor: not-allowed; /* Change cursor for disabled state 
+}
+
+#text-btn {
+  background-color: transparent; /* Remove any background 
+  color: #007bff; /* Text color, can be any color of your choice 
+  padding: 0;
+  border: none;
+  box-shadow: none;
+  cursor: pointer; /* Keep the cursor as pointer to indicate it's clickable 
+}
+
+#text-btn:hover {
+  text-decoration: underline; /* Optional: underline on hover to indicate interactivity 
+}
+
+
+
+*/

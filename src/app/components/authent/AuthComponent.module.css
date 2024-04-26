@@ -1,0 +1,66 @@
+/* AuthForm.module.css */
+
+.card {
+  width: 400px; /* Adjusted width */
+  background: #ffffff; /* Background color for the card */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 30px; /* More padding for inner space */
+  margin: 40px auto;
+  text-align: center;
+}
+
+.formField {
+  margin-bottom: 20px; /* More space between form fields */
+  display: flex;
+  flex-direction: column; /* Stack inputs vertically */
+}
+
+.formField input {
+  padding: 15px; /* More padding inside inputs */
+  border: 1px solid #ccc; /* Border for the inputs */
+  border-radius: 4px;
+  background-color: transparent; /* Transparent background for inputs */
+  margin-bottom: 10px; /* Space after each input */
+}
+
+.button {
+  width: auto; /* Smaller width for the button */
+  padding: 10px 20px; /* Adjust padding as needed */
+  border: 2px solid #007bff; /* Border for the button */
+  border-radius: 4px;
+  background-color: #007bff; /* Background color for the button */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: inline-block; /* Make the button inline to control width */
+  text-align: center; /* Center text in the button */
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.errorMessage {
+  margin: 10px;
+  color: #ff3860;
+}
+
+.successMessage {
+  margin: 10px;
+  color: #039817;
+}
+
+.switchButton {
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: underline;
+  display: block; /* Display as block to occupy its own line */
+  margin: 20px auto; /* More space around and center align */
+}
+
+.switchButton:hover {
+  color: #0056b3;
+}

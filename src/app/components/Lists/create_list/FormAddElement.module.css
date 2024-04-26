@@ -1,0 +1,14 @@
+.formContainer {
+    display: flex; /* Use flexbox to lay out children inline */
+    gap: 8px; /* Optional: adds some space between the input and the button */
+    margin-bottom: 10px; /* Space below the input */
+  }
+
+.FormAddElement {
+    flex-grow: 1; /* Allows the input to expand to fill available space */
+    padding: 8px 12px; /* Add some padding inside the input */
+    border: 1px solid #ccc; /* A light grey border */
+    border-radius: 4px; /* Slightly rounded corners for aesthetics */
+    box-sizing: border-box; /* Ensures padding does not increase the input's size beyond 100% width */
+    
+  }

@@ -1,0 +1,76 @@
+.flex {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+}
+
+.card {
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 600px;
+    position: relative;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.shareLinkWrapper {
+    display: flex;
+    margin: 10px;
+}
+
+.linkText {
+    padding: 10px;
+}
+
+.shareLink {
+    background-color: rgb(237, 237, 237);
+    padding: 10px;
+    width: 350px;
+}
+
+.title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.visibilityStatus {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+}
+
+.element {
+    border-bottom: 1px solid #eaeaea;
+    padding: 10px 0;
+}
+
+.element:last-child {
+    border-bottom: none;
+}
+
+.likeButton {
+    padding: 15px;  /* More specific */
+    background-color:  #007bff;
+    margin-right: 10px; /* Space between button and text */
+    padding: 0 10px; /* Padding inside the button */
+    font-size: 14px; /* Font size adjustment to match design */
+    line-height: 24px; /* Line height to vertically center text inside the button */
+    vertical-align: middle; /* Align with adjacent elements */
+}
+
+.likeButton:focus {
+    outline: none; /* Remove default focus outline */
+}

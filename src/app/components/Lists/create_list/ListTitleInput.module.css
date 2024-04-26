@@ -1,0 +1,12 @@
+/* Styles the Titel-Input field */
+
+.listName {
+    width: 100%;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: rgb(0, 0, 0);
+    margin: 20px 0px;
+    padding: 10px;
+    background-color: transparent;
+  }
+
