@@ -1,6 +1,7 @@
 // src/app/auth/utils.ts
 import wretch from "wretch";
 import Cookies from "js-cookie";
+import { AuthContext } from './auth-context';
 
 // Base API setup for making HTTP requests
 const api = wretch("http://localhost:8000").accept("application/json");
